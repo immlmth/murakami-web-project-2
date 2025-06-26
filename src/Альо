@@ -1,0 +1,802 @@
+<div style={{ marginTop: "60px" }}>
+            <h2 className="text-center mb-5">The most popular Murakami`s books</h2>
+            <div className="books-container-fluid">
+                <div className="row g-3">
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/sweetheart.JPG" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Sputnik Sweetheart</h5>
+                                        <p className="card-text">A surreal story about unrequited love. Mysterious
+                                        vanishing...</p>
+                                        <a href="#" className="btn btn-danger" >See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/wood.JPG" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Norwegian Wood</h5>
+                                        <p className="card-text">Toru Watanabe hears her favourite Beatles song
+                                        and then he is transported back in his student years</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/south.jpg" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">South of the Border, West of the Sun</h5>
+                                        <p className="card-text">A man who seems to found his happiness, putting on risk all he has</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/sheep.jpg" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">A Wild Sheep Chase</h5>
+                                        <p className="card-text">A  novel full of strange characters, lonely thoughts.
+                                        Hybrid of mythology and mystery. Quirky and utterly captivating.</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/dance.jpg" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Dance Dance Dance</h5>
+                                        <p className="card-text">An emotional novel about searching all connections in the world.
+                                        Reconnecting with old memories. Offbeat cast characters.</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/talkrunning.JPG" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">What i talk about when i talk about running</h5>
+                                        <p className="card-text">Honest story, which reveals private life of author</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/afterdark.JPG" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">After Dark</h5>
+                                        <p className="card-text">Stunning novel, where the familiar can become unfamiliar after midnight</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/singular.jpg" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">First Person Singular</h5>
+                                        <p className="card-text">Eight philosophical and mysterious stories</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                            <div className="row g-0">
+                                <div className="col-md-4 d-flex align-items-center">
+                                    <img src="/images/kafka.jpg" className="img-fluid rounded-start" alt="..."
+                                         style={{objectFit: "contain", height: "auto", width: "auto"}}></img>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Kafka on the Shore</h5>
+                                        <p className="card-text">Two stories. Young boy, who runs away from his house.
+                                        Old man who can talk to cats.</p>
+                                        <a href="#" className="btn btn-danger">See details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<div className="items-container">
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/jazzbar.JPG" className="card-img-top" alt="Jazz bar"/>
+                        <div className="card-body">
+                            <p className="card-text">Jazz Bar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/running.JPG" className="card-img-top" alt="Running"/>
+                        <div className="card-body">
+                            <p className="card-text">Running</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/cats.JPG" className="card-img-top" alt="Cats"/>
+                        <div className="card-body">
+                            <p className="card-text">Cats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+import React, {useState, useEffect} from 'react';
+
+
+function Books() {
+    const [books, setBooks] = useState([]);
+    const[selectedBook, setSelectedBook] = useState(null);
+
+    useEffect(() => {
+        fetch(process.env.PUBLIC_URL + "/datab/books.json")
+            .then((res) => res.json())
+            .then((data) => setBooks(data))
+            .catch((err) => console.error("OI", err));
+    }, []);
+
+    useEffect(() => {
+        const modalEl = document.getElementById('staticBackdrop');
+        const handleHide = () => setSelectedBook(null);
+
+        if (modalEl) {
+            modalEl.addEventListener('hidden.bs.modal', handleHide);
+        }
+
+        return () => {
+            if (modalEl) {
+                modalEl.removeEventListener('hidden.bs.modal', handleHide);
+            }
+        };
+    }, []);
+
+
+    return (
+        <div style={{ marginTop: "60px", backgroundColor: "#e3e2e2" }}>
+            <h2 className="text-center mb-5">The most popular Murakami`s books</h2>
+            <div className="books-container-fluid">
+                <div className="row g-3">
+                    {books.map((book, index) => (
+                        <div className="col-md-4" key={index}>
+                            <div className="card mb-3 h-100" style={{maxWidth: "400px"}}>
+                                <div className="row g-0">
+                                    <div className="col-md-4 d-flex align-items-center">
+                                        <img src={book.image} className="img-fluid rounded-start" alt="..."
+                                             style={{objectFit: "cover", height: "auto", width: "auto"}}></img>
+                                    </div>
+                                    <div className="col-md-8">
+                                        <div className="card-body">
+                                            <h5 className="card-title">{book.title}</h5>
+                                            <p className="card-text">{book.description}</p>
+                                            <button className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => setSelectedBook(book)} >See details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            {selectedBook && (
+                <div className="modal fade"
+                     id="staticBackdrop"
+                     data-bs-backdrop="static"
+                     data-bs-keyboard="false"
+                     tabIndex="-1"
+                     aria-labelledby="staticBackdropLabel"
+                     aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="staticBackdropLabel">{selectedBook.title}</h1>
+
+                            </div>
+                            <div className="modal-body">
+                                <div className="modal-text">
+                                    {selectedBook.details}
+                                </div>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-danger" onClick={() => {const modal = window.bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'));
+                                    modal.hide(); }}>Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
+
+
+
+    );
+}
+
+
+export default Books;
+
+
+
+import React from 'react';
+import Murakami from "./Murakami";
+import Items from "./Items";
+
+function Home() {
+    return (
+        <>
+            <Murakami />
+            <Items />
+        </>
+    );
+}
+
+export default Home;
+
+
+
+import React from 'react';
+
+
+function Item () {
+    return (
+        <div className="items-container">
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/jazzbar.JPG" className="card-img-top" alt="Jazz bar"/>
+                        <div className="card-body">
+                            <p className="card-text">Jazz Bar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/running.JPG" className="card-img-top" alt="Running"/>
+                        <div className="card-body">
+                            <p className="card-text">Running</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4">
+                    <div className="card" style={{width: "18rem"}}>
+                        <img src="/images/cats.JPG" className="card-img-top" alt="Cats"/>
+                        <div className="card-body">
+                            <p className="card-text">Cats</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+
+}
+
+export default Item;
+
+
+import React from 'react';
+import Item from './Item';
+
+function Items() {
+    return (
+        <div className="cards">
+            <h1 style={{textAlign: "center"}}>Enjoy Murakami`s books vibe</h1>
+            <div className="cards-container">
+                <div className="cards-wrapper">
+                    <ul className="cards-list">
+                        <Item />
+                    </ul>
+                </div>
+            </div>
+        </div>
+    );
+}
+export default Items;
+
+
+image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.murakami-container {
+
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+import React from 'react'
+import "./Murakami.css"
+
+
+function Murakami() {
+    return (
+        <div className="murakami-container">
+            <img src='/images/quotes.jpg' style={{ width: '100vw', height: '100vh', objectFit: 'cover' }} />
+        </div>
+    )
+}
+
+export default Murakami
+
+
+
+.log-button {
+    background: #630105;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+.log-button:hover {
+    background-color: darkred;
+}
+
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 25px;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover, nav-link:active {
+    color: white;
+}
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #630105;
+        visibility: hidden;
+
+    }
+    .nav-link:hover::before {
+        visibility: visible;
+        width: 100%;
+    }
+}
+
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./navbar.css"
+
+function Navbar() {
+    return (
+        <nav className="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+            <div className="container-fluid">
+                <Link className="navbar-brand me-auto" to="/">Murakami</Link>
+                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Murakami</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div className="offcanvas-body">
+                        <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li className="nav-item">
+                                <Link
+                                    className="nav-link mx-lg-2" to="/books">Books
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link mx-lg-2" to="/quiz">Quiz</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <Link className="log-button" to="/sign-up">Login</Link>
+                <button className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    );
+}
+export default Navbar;
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #242424;
+    gap: 20px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 40px 50px;
+
+}
+.quiz-container hr{
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.quiz-container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.quiz-container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.quiz-container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #630105;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.quiz-container .question-index {
+    margin: auto;
+    font-size: 18px;
+
+}
+
+.quiz-container ul li.correct {
+    background: #91ff94;
+    border-color: #006c07;
+}
+.quiz-container ul li.wrong {
+    background: #bd2a2a;
+    border-color: #b1000c;
+}
+
+
+import React, {useRef, useState} from 'react';
+import { data } from './quizData';
+import './Quiz.css'
+
+function Quiz() {
+    let [index, setIndex ] = useState(0);
+    let [question, setQuestion] = useState(data[index]);
+    let [lock, setLock] = useState(false);
+    let [score, setScore] = useState(0);
+    let [result, setResult] = useState(false);
+    let Option1 = useRef(null);
+    let Option2= useRef(null);
+    let Option3 = useRef(null);
+    let Option4 = useRef(null);
+    let options = [Option1, Option2, Option3, Option4]
+
+    const checkAnswer = (e, answer) => {
+        if (lock===false) {
+            if (question.answer===answer) {
+                e.currentTarget.classList.add('correct');
+                setLock(true);
+                setScore(prevScore => prevScore + 1);
+            }
+            else{
+                e.currentTarget.classList.add('wrong');
+                setLock(true);
+                options[question.answer-1].current.classList.add('correct');
+            }
+        }
+
+    }
+
+    const next = () => {
+        if (lock===true) {
+            if(index===data.length-1){
+                setResult(true);
+                return 0;
+
+            }
+            setIndex(++index);
+            setQuestion(data[index]);
+            setLock(false);
+            options.map((option) => {
+                option.current.classList.remove('wrong');
+                option.current.classList.remove('correct');
+                return null;
+            })
+        }
+
+
+    }
+
+    const newTry = () => {
+        setIndex(0);
+        setQuestion(data[0]);
+        setScore(0);
+        setLock(false);
+        setResult(false);
+    }
+
+
+    return(
+        <div style={{background: "linear-gradient(to bottom , #630105, #ffffff)", margin:0, paddingTop: "80px"}}>
+            <div className="quiz-container">
+                <h1>Quiz about Murakami and his books</h1>
+                <hr />
+                {result?<></>:<>
+                    <h2>{index + 1}. {question.question}</h2>
+                    <ul>
+                        <li ref={Option1} onClick={(e)=>{checkAnswer(e, 1)}}>{question.option1}</li>
+                        <li ref={Option2} onClick={(e)=>{checkAnswer(e, 2)}}>{question.option2}</li>
+                        <li ref={Option3} onClick={(e)=>{checkAnswer(e, 3)}}>{question.option3}</li>
+                        <li ref={Option4} onClick={(e)=>{checkAnswer(e, 4)}}>{question.option4}</li>
+                    </ul>
+                    <button onClick={next}>Next question</button>
+                    <div className="question-index">{index + 1} of {data.length} questions</div>
+                </>}
+                {result?<>
+                    <h2>Your Score is {score} out of {data.length}</h2>
+                    <button onClick={newTry}>Try Again</button>
+                </>:<></>}
+
+            </div>
+        </div>
+
+
+    );
+}
+
+export default Quiz;
+
+
+export const data =[
+    {
+        question: "Which book Murakami wrote first?",
+        option1: "Norwegian Wood",
+        option2: "Hear the Wind Sing",
+        option3: "Dance Dance Dance",
+        option4: "After Dark",
+        answer: 2
+    },
+    {
+        question: "Murakami loves which genre of music",
+        option1: "jazz",
+        option2: "rock",
+        option3: "pop",
+        answer: 1
+    },
+    {
+        question: "Which book is the most popular",
+        option1: "First Person Singular",
+        option2: "A Wild Sheep Chase",
+        option3: "Norwegian Wood",
+        answer: 3
+    },
+    {
+        question: "Where the writer was born",
+        option1: "Tokyo",
+        option2: "Kyoto",
+        option3: "Kobe",
+        option4: "Fukuoka",
+        answer: 2
+    },
+    {
+        question: "Which group inspired Murakami to name his novel Norwegian Wood",
+        option1: "The Beatles",
+        option2: "The Beach Boys",
+        option3: "Gorillaz",
+        answer: 1
+    },
+    {
+        question: "Which book is autobiographical",
+        option1: "South of the Border, West of the Sun",
+        option2: "What I talk about when I talk about running",
+        option3: "Men without Women",
+        option4: "Underground",
+        answer: 2
+    },
+    {
+        question: "At what age Murakami began to write",
+        option1: "21",
+        option2: "29",
+        option3: "30",
+        option4: "17",
+        answer: 2
+    }
+]
+
+.login-container {
+    box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.065);
+}
+
+
+.btn-sign-up {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #630105;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+import React from 'react';
+import './SignUp.css'
+
+
+
+function Login() {
+    return (
+        <div className="d-flex justify-content-center align-items-center vh-100"
+             style={{background: "linear-gradient(to bottom , #630105, #ffffff)", margin:0, paddingTop: "80px"}}>
+            <form className="p-4 border rounded bg-light login-container">
+                <h1>Login</h1>
+                <hr/>
+                <div className="mb-3">
+                    <label htmlFor="exampleInputName" className="form-label">Name</label>
+                    <input type="name" className="form-control" id="exampleInputName" aria-describedby="nameHelp"/>
+                    <div id="emailName" className="form-text">Enter your name</div>
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+                    <input type="password" className="form-control" id="exampleInputPassword1"/>
+                    <div id="emailName" className="form-text">Enter your password</div>
+                </div>
+                <button type="submit" className="btn-sign-up">Submit</button>
+            </form>
+        </div>
+
+
+    );
+}
+
+export default Login;
+
+import React from 'react';
+import Navbar from './components/navbar';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './App.css';
+import Books from "./components/Books";
+import Home from "./components/Home";
+import Quiz from "./components/Quiz";
+import SignUp from "./components/SignUp";
+
+function App(){
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        <>
+                            <Home />
+                        </>
+                }
+            />
+            <Route path="/books" element={<Books />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            </Routes>
+        </Router>
+    );
+}
+export default App;

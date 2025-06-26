@@ -1,0 +1,17 @@
+.login-container {
+    box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, 0.065);
+}
+
+
+.btn-login {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #630105;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

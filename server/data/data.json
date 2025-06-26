@@ -1,0 +1,94 @@
+{
+  "books": [
+      {
+        "title": "Sputnik Sweetheart",
+        "description": "A surreal story about unrequited love. Mysterious vanishing...",
+        "image": "/images/sweetheart.JPG",
+        "details": "Sumire spends hours on the phone talking to her best friend K about the big questions in life: what is sexual desire, and should she ever tell Miu how she feels for her? Meanwhile K wonders whether he should confess his own unrequited love for Sumire.\n\nThen, a desperate Miu calls from a small Greek island: Sumire has mysteriously vanished..."
+      },
+
+      {
+        "title": "Norwegian Wood",
+        "description": "Toru Watanabe hears her favourite Beatles song and then he is transported back in his student years",
+        "image": "/images/wood.JPG",
+        "details": "When he hears her favourite Beatles song, Toru Watanabe recalls his first love Naoko, the girlfriend of his best friend Kizuki. Immediately he is transported back almost twenty years to his student days in Tokyo, adrift in a world of uneasy friendships, casual sex, passion, loss and desire - to a time when an impetuous young woman called Midori marches into his life and he has to choose between the future and the past."
+      },
+
+      {
+        "title": "South of the Border, West of the Sun",
+        "description": "A man who seems to found his happiness, putting on risk all he has",
+        "image": "/images/south.jpg",
+        "details": "Growing up in the suburbs in post-war Japan, it seemed to Hajime that everyone but him had brothers and sisters. His sole companion was Shimamoto, also an only child. Together they spent long afternoons listening to her father's record collection. But when his family moved away, the two lost touch.\n\nNow Hajime is in his thirties. After a decade of drifting he has found happiness with his loving wife and two daughters, and success running a jazz bar. Then Shimamoto reappears. She is beautiful, intense, enveloped in mystery. Hajime is catapulted into the past, putting at risk all he has in the present."
+      },
+
+      {
+        "title": "A Wild Sheep Chase",
+        "description": "A  novel full of strange characters, lonely thoughts.Hybrid of mythology and mystery. Quirky and utterly captivating.",
+        "image": "/images/sheep.jpg",
+        "details": "His life was like his recurring nightmare: a train to nowhere. But an ordinary life has a way of taking an extraordinary turn. Add a girl whose ears are so exquisite that, when uncovered, they improve sex a thousand-fold, a runaway friend, a right-wing politico, an ovine-obsessed professor and a manic-depressive in a sheep outfit, implicate them in a hunt for a sheep, that may or may not be running the world, and the upshot is another singular masterpiece from Japan's finest novelist."
+      },
+
+      {
+        "title": "Dance Dance Dance",
+        "description": "An emotional novel about searching all connections in the world.Reconnecting with old memories. Offbeat cast characters.",
+        "image": "/images/dance.jpg",
+        "details":"High-class call girls billed to Mastercard. A psychic 13-year-old dropout with a passion for Talking Heads. A hunky matinee idol doomed to play dentists and teachers. A one-armed beach-combing poet, an uptight hotel clerk and one very bemused narrator caught in the web of advanced capitalist mayhem. Combine this offbeat cast of characters with Murakami's idiosyncratic prose and out comes Dance Dance Dance."
+      },
+
+      {
+        "title": "What i talk about when i talk about running",
+        "description": "Honest story, which reveals private life of author",
+        "image": "/images/talkrunning.JPG",
+        "details": "By turns funny and sobering, playful and philosophical, What I Talk About When I Talk About Running is rich and revealing, both for fans of this masterful yet private writer and for the exploding population of athletes who find similar satisfaction in distance running."
+      },
+
+      {
+        "title": "After Dark",
+        "description": "Stunning novel, where the familiar can become unfamiliar after midnight",
+        "image": "/images/afterdark.JPG",
+        "details": "Murakami, acclaimed master of the surreal, returns with a stunning new novel, where the familiar can become unfamiliar after midnight, even to those that thrive in small hours. With After Dark we journey beyond the twilight. Strange nocturnal happenings, or a trick of the night?"
+      },
+
+      {
+        "title": "First Person Singular",
+        "description": "Eight philosophical and mysterious stories",
+        "image": "/images/singular.jpg",
+        "details": "Philosophical and mysterious, the stories in First Person Singular all touch beautifully on love and solitude, childhood and memory. . . all with a signature Murakami twist."
+      },
+
+      {
+        "title": "Kafka on the Shore",
+        "description": "Two stories. Young boy, who runs away from his house.Old man who can talk to cats.",
+        "image": "/images/kafka.jpg",
+        "details": "Kafka Tamura runs away from home at fifteen, under the shadow of his father's dark prophesy. The aging Nakata, tracker of lost cats, who never recovered from a bizarre childhood affliction, finds his pleasantly simplified life suddenly turned upside down. Their parallel odysseys are enriched throughout by vivid accomplices and mesmerising dramas. Cats converse with people; fish tumble from the sky; a ghostlike pimp deploys a Hegel-spouting girl of the night; a forest harbours soldiers apparently un-aged since WWII. There is a savage killing, but the identity of both victim and killer is a riddle. "
+      }
+  ],
+  "items": [
+    {
+      "title": "Jazz Bar",
+      "description": "jazz",
+      "image": "/images/jazzbar.jpg",
+      "details": "details"
+    },
+    {
+      "title": "Cats",
+      "description": "cats",
+      "image": "/images/cats.JPG",
+      "details": "details"
+    },
+    {
+      "title": "Running",
+      "description": "running",
+      "image": "/images/running.JPG",
+      "details": "details"
+    }
+  ],
+  "murakami": [
+    {
+      "title": "Running",
+      "description": "running",
+      "image": "/images/quotes.jpg",
+      "details": "details"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.log-button {
+    background: #630105;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+.log-button:hover {
+    background-color: darkred;
+}
+
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 25px;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover, nav-link:active {
+    color: white;
+}
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #630105;
+        visibility: hidden;
+
+    }
+    .nav-link:hover::before {
+        visibility: visible;
+        width: 100%;
+    }
+}
