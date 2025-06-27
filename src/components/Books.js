@@ -32,7 +32,6 @@ function Books({ books }) {
                 </div>
             </div>
 
-            {/* Модальне вікно */}
             {selectedBook && (
                 <div
                     className="modal d-block"
